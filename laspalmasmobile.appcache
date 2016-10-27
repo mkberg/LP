@@ -1,9 +1,9 @@
 CACHE MANIFEST
-# 2016-10-27 v1.0.6
+# 2016-10-27 v1.0.7
 /laspalmasmobile.css
 /laspalmasmobile.js
 /laspalmasmobile.html
-/img/bg.jpg
-https://code.jquery.com/jquery-1.12.4.js
-https://code.jquery.com//ui/1.12.1/jquery-ui.js
+/img/*.jpg
+/js/jquery-1.12.4.js
+/js/jquery-ui.js
 
