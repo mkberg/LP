@@ -172,10 +172,20 @@ h2.time {
 	margin-bottom: 0px;
 }
 
+h2 .mandatory {
+	color: #ed3737;
+	border: thin #ed3737 solid;
+	border-radius: 3px;
+	font-size: 10px;
+	text-transform: uppercase;
+	padding: 0px 3px; 
+	font-weight: 700;
+	margin: -1px 0px 1px 5px;
+}
+
 .event {
 	margin-bottom: 10px;
 	overflow: auto;
-
 }
 
 .organiser {
