@@ -23,12 +23,13 @@ $( document ).ready(function() {
 		$("#day"+number).toggle("drop", { direction: "right" }, 100);
 	}
 
+});
+
 	function updateSite(event) {
 	    window.applicationCache.swapCache();
 	}
 	window.applicationCache.addEventListener('updateready',
 	    updateSite, false);
 
-});
 
 
