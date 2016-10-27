@@ -193,8 +193,16 @@ h2 .mandatory {
 	float: left;
 	margin-right: 15px;
 	border-radius: 50%;
+	transition: transform .8s ease-in-out;
+    transition-property: transform;
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in-out;
+    transition-delay: initial;
 }
 
+.organiser:hover {
+	transform: rotate(360deg)
+}
 
 
 
