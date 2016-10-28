@@ -7,6 +7,7 @@ $( document ).ready(function() {
  
 	$( "h1" ).click(function() {
 		$(this).next("div").slideToggle(200);
+		//$(this).next("div").siblings().slideToggle(200);
 		$(this).toggleClass("selected");
 	});
 
@@ -19,17 +20,17 @@ $( document ).ready(function() {
 		$("#picker"+number).toggleClass("selected");
 		$("#picker"+number).siblings().removeClass("selected");
 		$("#day"+number).siblings().hide();
-		//$("#day"+number).slideToggle(200);
-		$("#day"+number).toggle("drop", { direction: "right" }, 100);
+		$("#day"+number).toggle("drop", { direction: "right" }, 200);
 	}
 
 });
 
-	function updateSite(event) {
-	    window.applicationCache.swapCache();
-	}
-	window.applicationCache.addEventListener('updateready',
-	    updateSite, false);
 
+/*function updateSite(event) {
+	    window.applicationCache.swapCache();
+}
+window.applicationCache.addEventListener('updateready',
+	    updateSite, false);
+*/
 
 

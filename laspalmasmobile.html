@@ -42,14 +42,14 @@ https://developer.chrome.com/multidevice/android/installtohomescreen
 				<li data-day="11" id="picker11">Fri</li>
 				<li data-day="12" id="picker12">Sat</li>
 				<li data-day="13" id="picker13">Sun</li>
-				<li data-day="14" id="picker14">all</li>
+				<li data-day="14" id="picker14">all week</li>
 			</ul>
 			<div class="dayContainer">
 				
 				<!-- SUNDAY -->
 				<div class="day" id="day6">
 					<div class="event">
-						<h2 class="time">04:00</h2>
+						<h2 class="time first">04:00</h2>
 						<h2>Be at the airport</h2>
 						<img class="organiser" src="img/markus.jpg">
 						<p>Be at the airport with your passport and boarding pass. It's Helsinki-Vantaa <strong>Terminal 2</strong>. Eat a hefty breakfast, as only the Sky Bistro is available. Markus will be there to help out with anything.</p>
@@ -66,7 +66,7 @@ https://developer.chrome.com/multidevice/android/installtohomescreen
 						<h2 class="time">After flight</h2>
 						<h2>Bus from Airport to our hotels</h2>
 						<img class="organiser" src="img/laura.jpg">
-						<p>Follow Laura at the airport to find our bus.</p>
+						<p>Follow Laura at the airport to find our bus. More info to come...</p>
 					</div>
 
 					<div class="event">
@@ -87,7 +87,7 @@ https://developer.chrome.com/multidevice/android/installtohomescreen
 				<!-- MONDAY -->
 				<div class="day" id="day7">
 					<div class="event">
-						<h2 class="time">9:30 - 10:00 <span class="mandatory">mandatory</span></h2>
+						<h2 class="time first">9:30 - 10:00 <span class="mandatory">mandatory</span></h2>
 						<h2>Welcome, and Opening keynote</h2>
 						<img class="organiser" src="img/timo.jpg">
 						<p>Timo will kick off our Las Palmas offsite by addressing the state of the tribe. Let's have a look to our past, the current situation and the future.</p>
@@ -111,7 +111,7 @@ https://developer.chrome.com/multidevice/android/installtohomescreen
 				<!-- TUESDAY -->
 				<div class="day" id="day8">
 					<div class="event">
-						<h2 class="time">9:00 - 9:20</h2>
+						<h2 class="time first">9:00 - 9:20</h2>
 						<h2>Morning Jumppa</h2>
 						<img class="organiser" src="img/emmaleena.jpg">
 						<p>Let's kick off the day with a refreshing jumppa! No sweat!</p>
@@ -133,7 +133,7 @@ https://developer.chrome.com/multidevice/android/installtohomescreen
 				<!-- WEDNESDAY -->
 				<div class="day" id="day9">
 					<div class="event">
-						<h2 class="time">7:30 - 8:30</h2>
+						<h2 class="time first">7:30 - 8:30</h2>
 						<h2>Morning Run</h2>
 						<img class="organiser" src="img/perttu.jpg">
 						<p>more info to come...</p>
@@ -154,8 +154,8 @@ https://developer.chrome.com/multidevice/android/installtohomescreen
 
 				<!-- THURSDAY -->
 				<div class="day" id="day10">
-					<div class="event">
-						<h2 class="time">9:00 - 9:20</h2>
+					<div class="event ">
+						<h2 class="time first">9:00 - 9:20</h2>
 						<h2>Morning Jumppa</h2>
 						<img class="organiser" src="img/emmaleena.jpg">
 						<p>Let's kick off the day with a refreshing jumppa! No sweat!</p>
@@ -177,7 +177,7 @@ https://developer.chrome.com/multidevice/android/installtohomescreen
 				<!-- FRIDAY -->
 				<div class="day" id="day11">
 					<div class="event">
-						<h2 class="time">16:00 - 17:00 <span class="mandatory">mandatory</span></h2>
+						<h2 class="time first">16:00 - 17:00 <span class="mandatory">mandatory</span></h2>
 						<h2>Impossible fair and Closing keynote</h2>
 						<img class="organiser" src="img/peter.jpg">
 						<p>more info to come... maybe this should be earlier due to people leaving?</p>
@@ -192,10 +192,10 @@ https://developer.chrome.com/multidevice/android/installtohomescreen
 				<!-- SATURDAY -->
 				<div class="day" id="day12">
 					<div class="event">
-						<h2 class="time">xx:xx - xx:xx</h2>
+						<h2 class="time first">xx:xx - xx:xx</h2>
 						<h2>Paragliding</h2>
 						<img class="organiser" src="img/kimmo.jpg">
-						<p>more info to come...</p>
+						<p>Tandem flights with local instructors, somewhere nearby. Includes transportation to a nearby flying site. More info to come...</p>
 					</div>
 					<div class="event">
 						<h2 class="time">xx:xx - xx:xx</h2>
@@ -208,7 +208,7 @@ https://developer.chrome.com/multidevice/android/installtohomescreen
 				<!-- SUNDAY -->
 				<div class="day" id="day13">
 					<div class="event">
-						<h2 class="time">8:30</h2>
+						<h2 class="time first">8:30</h2>
 						<h2>Bus to airport</h2>
 						<img class="organiser" src="img/laura.jpg">
 						<p>more info to come...</p>
@@ -221,17 +221,19 @@ https://developer.chrome.com/multidevice/android/installtohomescreen
 					</div>
 				</div>
 
-				<!-- SUNDAY -->
+				<!-- ALL WEEK -->
 				<div class="day" id="day14">
 					<div class="event">
+						<h2 class="time first">Monday to Friday</h2>
 						<h2>Impossible task</h2>
 						<img class="organiser" src="img/peter.jpg">
 						<p>more info to come...</p>
 					</div>
 					<div class="event">
+					<h2 class="time">All week</h2>
 						<h2>Murder game</h2>
 						<img class="organiser" src="img/emmaleena.jpg">
-						<p>more info to come...</p>
+						<p>On your arrival to our destination you have been given a name of one fellow traveller you are supposed to murder during the the upcoming days. Name and instructions of how to kill are very secret. The only time you are allowed to share this information is when someone succeeds in murdering you. The person murdered will pass the name and instructions to the killer to keep the game going on. Enjoy the game!</p>
 					</div>
 				</div>
 			</div>
